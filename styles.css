@@ -25,6 +25,30 @@
   border-radius: 100%;
 }
 
+#pre-tabela{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-new{
+    font-size: 1.875rem;
+    position: relative;
+    bottom: 3px;
+    right: 18px;
+    transition: all ease-in-out 0.3s
+}
+
+.icon-new:hover{
+    color:#5100ff;
+    cursor: pointer;
+}
+
+.icon-new:active{
+    top: 1px
+}
+
 #wrapper {
   overflow-x: hidden;
   background-image: linear-gradient(
